@@ -15,13 +15,14 @@
 		</div>
 		<div class="form-container">
 			<form>
-				<input type="text" placeholder="Email address or phone number" />
-				<input type="password" placeholder="Password" />
-				<button>Log In</button>
-				<a>Forgotten account</a>
-				<hr>
-				<button>Create new account</button>
+				<input id="email" type="text" placeholder="Email address or phone number" />
+				<input id="password" type="password" placeholder="Password" />
+				<button id="login">Log In</button>
 			</form>
+			
+				<a href="/recover/initiate">Forgotten account</a>
+				<hr>
+				<button onclick="window.location.href='.signup'>Create new account</button>
 		</div>
 	</div>
     <script type="text/javascript" src="./script.js">
